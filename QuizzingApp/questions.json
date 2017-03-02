@@ -1,0 +1,25 @@
+{
+
+    "question1":{
+        "text": "What year did the band Metallica form?",
+        "wrong1": "1984",
+        "wrong2": "1983",
+        "answer": "1981",
+        "wrong3": "1979"
+    },
+    "question2":{
+        "text" : "What year did former bassist Cliff Burton die?",
+        "wrong1" : "1990",
+        "answer" : "1986",
+        "wrong2" : "1988",
+        "wrong3" : "1981"
+    },
+    "question3":{
+        "text" : "What year did Robert Trujillo join the band",
+        "wrong1" : "2000",
+        "wrong2" : "2005",
+        "wrong3" : "2002",
+        "answer" : "2003"
+
+    }
+}
