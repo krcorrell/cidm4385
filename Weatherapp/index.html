@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="ForecastApp">
+	<head>
+		<script src="angular.js"></script>
+		<script src="app.js"></script>		
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet"
+			  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+			  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+			  crossorigin="anonymous">
+
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div ng-controller="WeatherServiceController as wsc">
+            <p>lat: {{wsc.selected_lat}}</p>
+            <p>lon: {{wsc.selected_lon}}</p>
+            <!--<p><img src="{{wsc.google_static_maps_url}}" /></p>
+            <p>Time: {{wsc.ds_observation_time}}</p>
+            <p>Temperature: {{wsc.ds_temperature}}</p>
+            <p>Dewpoint: {{wsc.ds_dewpoint}}</p>
+            <p>Wind Bearing: {{wsc.ds_windBearing}}</p>
+            <p>Wind Speed: {{wsc.ds_windSpeed}}</p>-->
+            
+            <my-conditions></my-conditions>
+		</div>
+	</body>
+</html>
